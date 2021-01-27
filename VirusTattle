@@ -4,7 +4,7 @@
 if [ "$1" == "-f" ]; then
 	read -p "gib bad file: " badfile
 	printf "\n[*] Uploading $badfile...\n"
-	# VT api call for file upload > 32MB
+	# VT api call for file upload < 32MB
 	curl -s --request POST \
 		--url https://www.virustotal.com/api/v3/files \
 		--header "x-apikey:"$API_KEY \

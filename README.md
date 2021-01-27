@@ -1,5 +1,5 @@
 # VirusTattle by Droogy
----
+
 VirusTattle is a bash script which leverages the VirusTotal API to run a basic scan on malicious files/URLs.
 ---
 
